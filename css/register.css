@@ -1,0 +1,203 @@
+.wrap{
+    width: 100%;
+    height:100%;
+   /* background: #ff0000;*/
+    font-size: 14px;
+}
+.wrap .layout{
+    width: 854px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+   /* background: #ff0;*/
+}
+.wrap .layout .content{
+    padding: 34px 34px 30px;
+    margin: 0 auto;
+}
+/*注册logo*/
+.wrap .layout .content .logo{
+    padding-bottom: 40px;
+    text-align: center;
+}
+.wrap .layout .content .logo a{
+    width: 55px;
+    height: 55px;
+    margin: 0 auto;
+    display: block;
+    cursor: default;
+    background: url("../images/register/logo.png") no-repeat;
+}
+/*注册标题*/
+.wrap .layout .content .title h2{
+    text-align: center;
+    font-size: 30px;
+}
+/*注册内容部分*/
+.wrap .layout .content .main .reg_box{
+    width: 332px;
+    padding: 30px 0;
+    line-height: 20px;
+    /*background: #0f0;*/
+    margin: 0 auto;
+}
+.wrap .layout .content .main .reg_box .reg_phone{
+    line-height: 20px;
+    color: #666;
+    position: relative;
+}
+.wrap .layout .content .main .reg_box .reg_phone>h4{
+    padding-bottom: 5px;
+    color: #333;
+}
+.wrap .layout .content .main .reg_box .reg_phone .country{
+    padding-bottom: 15px;
+}
+.wrap .layout .content .main .reg_box .reg_phone .country .country_info{
+    height: 40px;
+    padding-left: 14px;
+    line-height: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid #e8e8e8;
+    color: #555;
+    cursor: pointer;
+}
+.wrap .layout .content .main .reg_box .reg_phone .country .country_info>p{
+    float: left;
+    width: 271px;
+    border-right: 1px solid #e8e8e8;
+    cursor: pointer;
+}
+.wrap .layout .content .main .reg_box .reg_phone .country .country_info>i{
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    margin: 11px 12px 0 12px;
+}
+.wrap .layout .content .main .reg_box .reg_phone .country_choice{
+    width: 332px;
+    background: #fff;
+    height: 270px;
+    line-height: 30px;
+    border: 1px solid #e8e8e8;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: absolute;
+    left: 0;
+    top: 66px;
+    z-index: 9;
+    display: none;
+}
+.wrap .layout .content .main .reg_box .reg_phone .country_choice .choice_box input{
+    width: 274px;
+    height: 22px;
+    line-height: 22px;
+    margin: 10px;
+    padding: 5px 10px 5px 10px;
+    display: block;
+    border: 1px solid #e0e0e0;
+}
+.wrap .layout .content .main .reg_box .reg_phone .country_choice .country_list{
+    padding-left: 10px;
+}
+.wrap .layout .content .main .reg_box .reg_phone .country_choice .country_list h4{
+    margin-left: -10px;
+    padding-left: 10px;
+    background: #fcdecc;
+    margin-bottom: 6px;
+    line-height: 30px;
+    color: #ef5b00;
+}
+.wrap .layout .content .main .reg_box .reg_phone .country_choice .country_list .list >ul>li{
+    margin-left: -10px;
+    padding-left: 10px;
+}
+.wrap .layout .content .main .reg_box .reg_phone .country_choice .country_list .list >ul>li:hover{
+    background: #e0e0e0;
+}
+.wrap .layout .content .main .reg_box .reg_phone .reg_phone_text{
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+.wrap .layout .content .main .reg_box .reg_phone .reg_phone_tel{
+    position: relative;
+}
+.wrap .layout .content .main .reg_box .reg_phone .reg_phone_tel .tel_box{
+    height: 42px;
+    margin-bottom: 15px;
+}
+.wrap .layout .content .main .reg_box .reg_phone .reg_phone_tel .tel_box .con{
+    float: left;
+    width: 54px;
+    text-align: center;
+    padding: 0 9px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid #e8e8e8;
+    color: #555;
+    cursor: pointer;
+}
+.wrap .layout .content .main .reg_box .reg_phone .reg_phone_tel .tel_box .icon-f11{
+    margin: 17px 0 0 10px;
+}
+
+.wrap .layout .content .main .reg_box .reg_phone .reg_phone_tel .tel_box .inp{
+    float: right;
+    width: 256px;
+    height: 40px;
+    display: inline-block;
+    position: absolute;
+    left: 73px;
+}
+.wrap .layout .content .main .reg_box .reg_phone .reg_phone_tel .tel_box .inp input{
+    width: 258px;
+    line-height: 40px;
+    height: 41px;
+    border: 1px solid #e8e8e8;
+    padding: 10px;
+    box-sizing: border-box;
+    /*outline:#ff6700;*/
+}
+.wrap .layout .content .main .reg_box .reg_phone .reg_phone_tel .tel_box .inp input:focus{
+    outline:none;
+    border: 1px solid #ff6700;
+}
+.wrap .layout .content .main .reg_box .reg_phone .reg_phone_tel .reg_vel{
+    line-height: 20px;
+    font-size: 14px;
+    color: #ff6700;
+}
+
+/*提交按钮*/
+.wrap .layout .content .main .reg_box .reg_phone .reg_btn input{
+    width: 332px;
+    height: 42px;
+    margin: 15px auto;
+    line-height: 42px;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+    background-color: #ff6700;
+    border: 1px solid rgba(186,186,186,0.3);
+}
+.wrap .layout .content .main .reg_box .reg_phone .reg_btn p{
+    margin-top: 10px;
+    color: #9d9d9d;
+}
+.wrap .layout .content .main .reg_box .reg_phone .reg_btn p a{
+    color: #333;
+    font-weight: bold;
+}
+/*底部备案信息*/
+
+.wrap .layout .footer{
+    width: 100%;
+    height: 44px;
+    margin: 40px auto 10px;
+    text-align: center;
+}
+
+

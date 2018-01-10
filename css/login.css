@@ -1,0 +1,291 @@
+.head{
+    width: 1130px;
+    margin: 0 auto;
+   /* background: #ff0;*/
+}
+.head .head_logo{
+    width: 200px;
+    height: 88px;
+}
+.head .head_logo a{
+    display: block;
+    width: 200px;
+    height: 98px;
+    background: url("../images/login/l_logo.png") no-repeat center;
+}
+/*中间背景*/
+.content{
+    width: 100%;
+    height: 588px;
+    font-size: 14px;
+    background: url("../images/login/login1.jpg") no-repeat center;
+    position: relative;
+}
+/*登录界面*/
+.content .login_box{
+    width: 410px;
+    height: 524px;
+    background: #fff;
+    position: absolute;
+    top: 30px;
+    right: 205px;
+    margin: 0 auto;
+}
+/*登录头部*/
+.content .login_box .login_head{
+    width: 100%;
+    padding: 27px 0 24px;
+    text-align: center;
+    font-size: 24px;
+    color: #e0e0e0;
+}
+.content .login_box .login_head span{
+    width: 1px;
+    height: 26px;
+    margin: 0 35px 0 42px;
+    border: 1px solid #e0e0e0;
+}
+.content .login_box .login_head .account{
+    color: #f56600;
+}
+.content .login_box .login_head a:hover{
+    color: #f56600;
+}
+/*账号登录部分*/
+.content .login_box .box_acc{
+    height: 400px;
+}
+.content .login_box .box_acc .login_body{
+    width: 100%;
+    height: 225px;
+}
+/*改变input的*/
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: #969696;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #969696;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #969696;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #969696;
+}
+.content .login_box .box_acc .login_body .body_box{
+    width: 348px;
+    height: 225px;
+    margin: 0 auto;
+    /*background: #ff0;*/
+}
+.content .login_box .box_acc .login_body .body_box  p{
+    padding-top: 10px;
+}
+.content .login_box .box_acc .login_body .body_box  p input{
+    padding: 10px;
+    width: 326px;
+    height: 28px;
+    border:1px solid #e0e0e0;
+    outline:none
+}
+.content .login_box .box_acc .login_body .body_box #pwd{
+    margin-bottom: 10px;
+}
+.content .login_box .box_acc .login_body .body_box #reg{
+    line-height: 20px;
+    font-size: 14px;
+    color: #ff6700;
+    display: none;
+}
+.content .login_box .box_acc .login_body .body_box #reg span{
+    margin-left: 5px;
+}
+.content .login_box .box_acc .login_body .body_box  p input[type=submit]{
+    width: 348px;
+    height: 50px;
+    background: #f56600;
+    border: none;
+}
+.content .login_box .box_acc .login_body .body_box .form_other{
+    width: 348px;
+    height: 20px;
+    /*background: #0ff;*/
+}
+.content .login_box .box_acc .login_body .body_box .form_other .left{
+    float: left;
+}
+.content .login_box .box_acc .login_body .body_box .form_other .right{
+    float: right;
+}
+.content .login_box .box_acc .login_body .body_box .form_other .left a{
+    color: #ef5b00;
+}
+.content .login_box .box_acc .login_body .body_box .form_other .right a{
+    color: #999;
+}
+.content .login_box .box_acc .login_body .body_box .form_other .right a:hover{
+    color: #ef5b00;
+}
+.content .login_box .box_acc .login_body .body_box .form_other .right span{
+    color: #999;
+    margin: 0 5px;
+}
+/*手机验证登录*/
+.content .login_box .box_acc .login_body .box_tel{
+    width: 348px;
+    height: 225px;
+    margin: 0 auto;
+    display: none;
+   /* background: #ff0;*/
+}
+
+.content .login_box .box_acc .login_body .box_tel p{
+    width: 348px;
+    height: 50px;
+    padding: 10px 0;
+}
+.content .login_box .box_acc .login_body .box_tel .box_tel_ver{
+    margin-top: -10px;
+}
+.content .login_box .box_acc .login_body .box_tel p:nth-child(3){
+    margin-top: -2px;
+}
+.content .login_box .box_acc .login_body .box_tel p input{
+
+    padding: 10px 10px;
+    /*width: 326px;*/
+    height: 28px;
+    border:1px solid #e0e0e0;
+    outline:none
+}
+.content .login_box .box_acc .login_body .box_tel .box_tel_phone span{
+    display: inline-block;
+    padding: 17px 10px 3px;
+    margin-left: 5px;
+    width: 43px;
+    height: 28px;
+    color: #333;
+    font-size: 12px;
+    border: 1px solid #e0e0e0;
+}
+.content .login_box .box_acc .login_body .box_tel .box_tel_phone input{
+    width: 250px;
+    margin-top: -2px;
+}
+.content .login_box .box_acc .login_body .box_tel .box_tel_ver input{
+    width: 203px;
+    margin-left: 5px;
+}
+.content .login_box .box_acc .login_body .box_tel .box_tel_ver a{
+    display: inline-block;
+    color: #003ab5;
+    padding: 14px 10px 6px;
+    width: 90px;
+    height: 28px;
+    border: 1px solid #e0e0e0;
+}
+.content .login_box .box_acc .login_body .box_tel .box_tel_ver span{
+    display: inline-block;
+    color: #003ab5;
+    padding: 14px 10px 6px;
+    width: 90px;
+    height: 28px;
+    border: 1px solid #e0e0e0;
+
+}
+.content .login_box .box_acc .login_body .box_tel #re{
+    line-height: 20px;
+    font-size: 14px;
+    color: #ff6700;
+    display: none;
+}
+.content .login_box .box_acc .login_body .box_tel  p input[type=submit]{
+    width: 348px;
+    height: 50px;
+    margin-top: 10px;
+    background: #f56600;
+    border: none;
+}
+.content .login_box .box_acc .login_body .box_tel .form_other .left a{
+    color: #ef5b00;
+}
+/*登录底部*/
+.content .login_box .login_footer{
+    width: 348px;
+    height: 66px;
+    margin: 100px auto;
+}
+.content .login_box .login_footer .top{
+    width: 348px;
+    height: 30px;
+}
+.content .login_box .login_footer .top span{
+    display: inline-block;
+    font-size: 14px;
+}
+.content .login_box .login_footer .top .two{
+    margin: 0 5px;
+}
+.content .login_box .login_footer .top .one,.content .login_box .login_footer .top .three{
+    width: 127px;
+    height: 1px;
+    background: #b0b0b0;
+    margin-bottom: 5px;
+}
+.content .login_box .login_footer .bottom{
+    width: 348px;
+    height: 37px;
+    text-align: center;
+    /*background: #ff0000;*/
+}
+.content .login_box .login_footer .bottom a{
+    margin: 0 17px;
+}
+.content .login_box .login_footer .bottom a .iconfont{
+    font-size: 36px;
+}
+.content .login_box .login_footer .bottom a:hover .icon-qq{
+    color: #1E90FF;
+}
+.content .login_box .login_footer .bottom a:hover .icon-weibo1{
+    color: #A52A2A;
+}
+.content .login_box .login_footer .bottom a:hover .icon-zhifubao{
+    color: #00BFFF;
+}
+.content .login_box .login_footer .bottom a:hover .icon-weixin{
+    color: #00FF00;
+}
+
+/*扫码登录*/
+.content .login_box .box_scan{
+    width: 410px;
+    height: 314px;
+    margin: 0 auto;
+    /*background: #ff0;*/
+    display: none;
+}
+.content .login_box .box_scan .scan_con{
+    text-align: center;
+    padding-top: 78px;
+}
+.content .login_box .box_scan .scan_con .scan_pic{
+    width: 410px;
+    height: 184px;
+    background: url("../images/login/canvas.png") no-repeat center;
+}
+.content .login_box .box_scan .scan_con .scan_txt{
+    padding-top: 14px;
+}
+.content .login_box .box_scan .scan_con .scan_txt span{
+    padding: 0 5px;
+    color: #ff6700;
+}
+/*页面底部*/
+.foot{
+    width: 100%;
+    height: 44px;
+    margin: 40px auto 10px;
+    text-align: center;
+}
